@@ -1,0 +1,13 @@
+.card-shadow {
+    box-shadow: 1px 1px 4px 0px #EDE7F6 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin: 0 -30px !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}

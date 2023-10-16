@@ -1,0 +1,79 @@
+:root {
+    --grey-light: #f2f7f9;
+    --grey: #ecedf3;
+    --color-white: #fff;
+    --color-second-title: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-project-title: #2196f3;
+    --color-light: rgba(132, 139, 200, .18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #0d012c;
+    --color-title: #2196f3;
+    --color-card2: #14143a;
+    --color-button: linear-gradient(270deg, #17c0e9, #c96ddd, #f45162);
+    --color-special-color: #eff30e;
+    --color-button-hover: #59c378;
+    --color-background-2: #0d012c;
+    --color-icon-background: #464a68;
+    --color-card-background: #1f0a44 0;
+    --color-card: #313552;
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+    --box-shadow: 0.2rem 3rem var(var(--color-light));
+    --card-box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, .1) !important;
+    --card-box-shadow-hover: 0px 30px 60px 0px rgba(0, 0, 0, .1) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    background: var(--color-background) !important;
+    font-family: poppins, sans-serif !important;
+    font-size: .88rem;
+    height: 100vh;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+    transition: all .5s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100vw;
+    color: white;
+}
+
+#root {
+    overflow-x: hidden;
+}
+
+.bg-color {
+    background-color: #0d012c !important;
+    color: white !important;
+
+}
+p {
+    font-size: 18px;
+}
+
+.title p {
+    font-size: 16px;
+}
+
+a {
+    font-size: 16px !important;
+}
+.h2 {
+    color: #59c378 !important;
+}

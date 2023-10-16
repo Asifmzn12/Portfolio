@@ -1,0 +1,105 @@
+.contact-me:hover {
+    background: var(--color-button-hover);
+    border: none;
+    color: var(--color-dark);
+    font-weight: 500;
+    margin-right: 30px;
+    transition: all .5s ease-in;
+}
+.contact-me {
+    background: var(--color-button);
+    border: none;
+    color: var(--color-dark);
+    font-size: 16px !important;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    width: 180px;
+    border-radius: 50px;
+}
+.contact_me {
+
+    background: var(--color-button-hover) !important;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 10px;
+    width: 130px;
+    border: none !important;
+    font-size: 16px;
+
+
+}
+.download-cv:hover {
+    background-color: #15622c;
+    color: white;
+    transition: all 0.3s ease;
+}
+.slevel {
+    border: 1px solid rgb(37, 43, 88);
+    border-radius: 10px;
+    width: 135px;
+    margin: auto;
+}
+
+
+.download-cv {
+    background: var(--color-button-hover);
+    border: none;
+    border: 1px solid var(--color-button);
+    border-radius: 5px;
+    color: var(--color-background-2);
+    font-size: 13px;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    width: 180px;
+}
+
+
+
+.buttonLink {
+
+    background: var(--color-button-hover) !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none !important;
+    font-size: 16px;
+
+
+}
+
+.learnmore {
+    color: #909faf !important;
+    color: var(--color-button);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+h1 {
+    font-size: 35px;
+}
+
+.mylang:hover {
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+
+
+
+.icon-link .icon:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+@media screen and (min-width:1024px) {
+        .nav-link:after{
+            display: block;
+        }
+}

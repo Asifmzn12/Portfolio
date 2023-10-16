@@ -1,0 +1,127 @@
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.skills :nth-child(odd) {
+    font-size: 13px !important;
+    padding: 3px 1px;
+    border-radius: 50px;
+}
+
+.mylang {
+    background: var(--color-card2);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(146, 146, 165, 0.1);
+    color: white;
+  }
+  .mylang h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+
+  .lang {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .lang-img {
+    width: 70px;
+    cursor: pointer;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(23, 32, 61);
+    /* box-shadow: 0px 3px 5px rgb(16 70 197 / 20%); */
+  }
+
+.skillimg{
+  display: inline-block;
+  border-radius: 50%;
+  background: rgb(23, 32, 61);
+  padding: 30px;
+  /* border: 1px solid rgb(23, 32, 61); */
+      box-shadow: 0px 3px 7px rgb(16 70 197 / 30%);
+
+}
+.skillimg:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  box-shadow: 2px 3px 16px rgba(70, 114, 217, 0.3);
+}
+
+
+  .lang-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lang-info img {
+    width: 48px;
+    height: 48px;
+  }
+  .lang-info p {
+    font-size: 13px;
+  }
+  .mylang .Junior {
+    color: #eb997c !important;
+  }
+  .mylang .Beginner {
+    color: #e6cc79 !important;
+  }
+  .mylang .Intermediate {
+    color: #c774b9 !important;
+  }
+  .mylang .Experienced {
+    color: #dd83dd !important;
+  }
+  /* responsive */
+  @media only screen and (max-width: 768px) {
+    .progress-title {
+      text-align: center;
+    }
+    .progress-title h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .progress-container {
+      padding: 50px 20px;
+    }
+  }
+  /*light theme  */
+  .light .skill-bar {
+    background: var(--btn-background);
+  }
+  .light .mylang h3 {
+    color: #000;
+  }
+  .light .lang-img {
+    background: rgb(240, 239, 239);
+  }
+  .light .mylang p {
+    border: 1px solid rgb(215, 217, 231);
+    line-height: normal !important;
+  }
+  
+  .light .mylang .Junior {
+    color: #e26537 !important;
+  }
+  .light .mylang .Beginner {
+    color: #91ff00 !important;
+  }
+  .light .mylang .Intermediate {
+    color: #d823ba !important;
+  }
+  .light .mylang .Experienced {
+    color: #e6227d !important;
+  }
+ 
+ 
+    

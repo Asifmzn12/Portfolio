@@ -1,0 +1,52 @@
+export const data=[
+  {
+   id:1,
+   img:'/image/html.png',
+   SkillName:"Html5",
+   level:"Intermediate"
+  },
+  {
+    id:2,
+    img:"/image/css3.png",
+    SkillName:"css",
+    level:"Intermediate"
+   },
+   {
+    id:3,
+    img:"/image/bootstrap.png",
+    SkillName:"Bootstrap",
+    level:"Intermediate"
+   },
+   {
+    id:4,
+    img:"/image/javascript.png",
+    SkillName:"JavaScript",
+    level:"Intermediate"
+   },
+   {
+     id:5,
+     img:"/image/react.png",
+     SkillName:"React",
+     level:"Intermediate"
+    },
+   
+    {
+      id:6,
+      img:"/image/tailwind_css.png",
+      SkillName:"Tailwind",
+      level:"Intermediate"
+     },
+     {
+      id:7,
+      img:"/image/git.png",
+      SkillName:"Git",
+      level:"Junior"
+     },
+     {
+      id:8,
+      img:"/image/nodejs (2).png",
+      SkillName:"NodeJs",
+      level:"Junior"
+     }
+  
+]

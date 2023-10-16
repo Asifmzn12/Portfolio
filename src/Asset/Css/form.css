@@ -1,0 +1,66 @@
+.contact-info i {
+    align-items: center;
+    border-radius: 50%;
+    border-radius: 150px;
+    color: var(--color-button-hover);
+    display: flex;
+    font-size: 27px;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 80px;
+}
+
+.contact-info:first-child i {
+    background: #fcdcdc;
+    color: #f06a6a !important;
+}
+
+.contact-info:nth-child(2) i {
+    background: #ddf5e6;
+    color: #6ecc21 !important;
+
+}
+
+.contact-info:nth-child(3) i {
+    background: #ddd6fa;
+    color: #8b71e9 !important;
+}
+
+.email-me input {
+    border: none;
+    border-radius: 6px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.email-me input,
+.email-me textarea {
+    background: var(--color-card2);
+    width: 100%;
+    border: none;
+    text-indent: 30px;
+    color: white;
+
+}
+
+.hire-btn {
+    background: var(--color-button-hover);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 50px;
+    margin-top: 30px;
+    width: 150px;
+    outline: none;
+    border: none;
+}
+
+.email-me textarea {
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+a {
+    color: white !important;
+}
