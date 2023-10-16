@@ -41,6 +41,8 @@
     border-radius: 10px;
     width: 135px;
     margin: auto;
+    color: #e6cc79!important;
+
 }
 
 
@@ -98,8 +100,10 @@ h1 {
     transform: scale(1.03);
     transition: all 0.3s ease;
 }
-@media screen and (min-width:1024px) {
-        .nav-link:after{
-            display: block;
-        }
+@media screen and (max-width:768px) {
+     
+      .contact-me{
+        height: 55px;
+        width: 150px;
+      }
 }

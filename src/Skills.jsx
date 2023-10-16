@@ -10,8 +10,8 @@ function Skills() {
 
         {
           data.map((skills) => (
-            <div data-aos="fade-right" className=' col-sm-6 col-md-4 col-lg-3 my-2 py-5' key={skills.id} >
-              <Card className='mylang py-lg-4 skills'>
+            <div data-aos="fade-right" className=' col-sm-6 col-md-4 col-lg-3 my-2 ' key={skills.id} >
+              <Card className='mylang py-lg-4 skills py-4'>
                 <Card.Body>
                   <img src={skills.img} className='img-fluid skillimg'></img>
                   <Card.Text className='my-2'>{skills.SkillName}</Card.Text>

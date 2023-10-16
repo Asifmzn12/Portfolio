@@ -64,3 +64,12 @@
 a {
     color: white !important;
 }
+@media only screen and (max-width: 768px)
+{
+.contact-info i{
+    height: 40px  !important;
+    width: 40px !important;
+}
+
+}
+ipput::placeholder{}

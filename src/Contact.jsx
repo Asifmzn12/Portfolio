@@ -78,7 +78,7 @@ function Contact() {
             <h1 className="text-center fw-bold mb-5">Contact</h1>
 
             <div className="row justify-content-md-around justify-content-center  gap-md-2 gap-lg-0 gap-4  ">
-                <div className="col-md-5 d-flex flex-column gap-lg-5">
+                <div className="col-md-5 d-flex flex-column gap-3 gap-lg-5">
                     {
                         contactapi.map((contactinfo, index) =>
                             <div key={index} className="d-flex contact-info align-items-center">
