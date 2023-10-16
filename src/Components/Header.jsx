@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 function Header() {
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary py-md-3 text-uppercase navbar">
+    <Navbar expand="lg" className="bg-body-tertiary py-md-3 text-uppercase navlinks">
       <Container className="py-2 text-white">
         <Navbar.Brand as={Link} to="/">
           <h2>Asif Ali</h2>

@@ -1,3 +1,5 @@
+import ScrollToTop from "react-scroll-to-top";
+
 import About from "./About"
 import Introduction from "./Introduction"
 import Skills from "./Skills"
@@ -19,6 +21,9 @@ function Index() {
       <Experience/>
       <Projects/>
       <Contact/>
+      <ScrollToTop height={17} smooth />
+
+      
       
       
       

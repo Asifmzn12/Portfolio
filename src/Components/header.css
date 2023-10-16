@@ -7,8 +7,17 @@
 
 .nav-link:hover {
     text-decoration: none;
+    color: #0056b3 !important;
+    transition: all 0.2s ease;
     
 }
+
+.nav-link:active{
+    color: var(--color-button-hover)!important;
+    font-weight: 700!important;
+}
+
+
 
 /* .nav-link:after {
     content: '';
@@ -48,3 +57,9 @@
     top: 0;
     z-index: 1000;
 }
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust background color as needed */
+  }

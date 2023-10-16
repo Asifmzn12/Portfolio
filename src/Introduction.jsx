@@ -12,6 +12,7 @@ function Introduction() {
             <div className="row justify-content-center align-items-center">
                 <div className="col-md-5  col-12 order-1 order-md-0">
                     <div className="intro-name d-flex flex-column gap-4">
+                    <h2 className='hello'>Software Developer</h2>
                         <h1>
                             <Typewriter className="job"
                                 options={{
