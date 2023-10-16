@@ -37,7 +37,7 @@
     transition: all 0.3s ease;
 }
 .slevel {
-    border: 1px solid rgb(37, 43, 88);
+    border: 2px solid rgb(37, 43, 88);
     border-radius: 10px;
     width: 135px;
     margin: auto;
@@ -106,4 +106,8 @@ h1 {
         height: 55px;
         width: 150px;
       }
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color:white !important;
 }
