@@ -1,5 +1,8 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 import { Container } from "react-bootstrap";
 import { contactapi } from "./config/contactcustomapi";
@@ -45,7 +48,6 @@ function Contact() {
     };
 
     const isValidEmail = (email) => {
-        // Basic email validation regex
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     };
@@ -57,10 +59,12 @@ function Contact() {
         if (isValid) {
             emailjs.sendForm("service_req", "template_01xbp3a", e.target, "m0vWn-8VGOdFYFC_k")
             .then((result) => {
-                console.log(result.text);
-                alert("thank you for Your Message")
+                console.log(result)
+                toast.success("Thank you for Your Message"); 
             }, (error) => {
-                console.error(error.text);
+                console.log(error);
+                toast.error("Failed to send message. Please try again later.");
+
             });
 
 
@@ -75,7 +79,8 @@ function Contact() {
 
     return (
         <Container className="py-5">
-            <h1 className="text-center fw-bold mb-5">Contact</h1>
+        <ToastContainer />
+            <h2 className="text-center fw-bold mb-5">Contact</h2>
 
             <div className="row justify-content-md-around justify-content-center  gap-md-2 gap-lg-0 gap-4  ">
                 <div className="col-md-5 d-flex flex-column gap-3 gap-lg-5">

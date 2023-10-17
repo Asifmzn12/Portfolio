@@ -35,4 +35,8 @@ img.vert-move {
         transform: translateY(-10px);
     }
 }
+.learnmore:hover{
+    color:white !important;
+    transition: all 0.2 ease;
+}
 

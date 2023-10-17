@@ -11,3 +11,14 @@
 .carousel-control-next {
     display: none;
 }
+.education-title{
+    color: #59c378;
+   font-size: 25px;
+}
+.subheading {
+    color: #ccc !important;
+    font-size: 19px;
+    font-weight: 300 !important;
+    line-height: 1.7rem;
+    white-space: normal;
+}

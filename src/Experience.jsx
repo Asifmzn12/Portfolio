@@ -6,7 +6,7 @@ function Experience() {
   return (
 
     <div className="container py-md-5 py-3">
-     <h1 className="text-center fw-bold mb-5">Experience</h1>
+     <h2 className="text-center fw-bold mb-5">Experience</h2>
     <div className='Stepper'>
     <VerticalTimeline className='w-100 mw-100' layout="1-column-left">
     <VerticalTimelineElement

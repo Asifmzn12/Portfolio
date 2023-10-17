@@ -19,18 +19,7 @@
     width: 180px;
     border-radius: 50px;
 }
-.contact_me {
 
-    background: var(--color-button-hover) !important;
-    border-radius: 5px;
-    color: #fff;
-    padding: 15px 10px;
-    width: 130px;
-    border: none !important;
-    font-size: 16px;
-
-
-}
 .download-cv:hover {
     background-color: #15622c;
     color: white;
@@ -107,4 +96,20 @@ h1 {
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color:white !important;
+}
+
+.scroll-to-top{
+    background: #59c378 !important;
+    border: none;
+    color: white !important;
+
+}
+.scroll-to-top svg[fill]{
+    fill: white !important;
+}
+@media screen and (max-width:768px) {
+     
+    .title p{
+   font-size: 14px !important;
+    }
 }

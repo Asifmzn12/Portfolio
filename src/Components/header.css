@@ -63,3 +63,8 @@
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.9); /* Adjust background color as needed */
   }
+  .img{
+    width: 180px;
+    height: auto;
+
+  }

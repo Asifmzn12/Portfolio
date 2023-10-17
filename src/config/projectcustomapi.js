@@ -3,27 +3,26 @@ export const projects = [
         id: 1,
         image:'/image/Portfolioss.png',
         Project_Name: 'Personal Portfolio',
-        Source: "LINK",
-        Demo: "LINK",
-        summery:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor porro fuga distinctio incidunt dolore. Porro aperiam molestiae minus tempora rerum."
+        Source: "https://github.com/Asifmzn12/Portfolio",
+        Demo: "notify",
+        summery:"Curated showcase of expertise. Innovative designs, problem-solving prowess, and creative excellence. Dive into a world of passion, where ideas turn into impactful solutions."
     },
     {
         id: 2,
         image:'/image/EcommerceWebsite.png',
-        Project_Name: 'Website',
-        Source: "LINK",
-        Demo: "LINK",
-        summery:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor porro fuga distinctio incidunt dolore. Porro aperiam molestiae minus tempora rerum."
-
+        Project_Name: 'E-commerce Website',
+        Source: "https://github.com/Asifmzn12/Dcart-EcommerceWebsite",
+        Demo: "https://e-commerce-website-zeta-sepia.vercel.app/",
+       summery:"E-commerce Website Project: Seamless shopping experience. Intuitive navigation, personalized features Enhanced user satisfaction, driving sales and brand loyalty."
 
     },
     {
         id: 3,
         image:'/image/Newsappss.png',
         Project_Name: 'News Website',
-        Source: "LINK",
-        Demo: "LINK",
-        summery:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor porro fuga distinctio incidunt dolore. Porro aperiam molestiae minus tempora rerum."
+        Source: "https://github.com/Asifmzn12/News-App",
+        Demo: "notify",
+        summery:"Leading Hindi news website. Comprehensive coverage, user-friendly interface, and real-time updates. Trusted by readers for accurate, engaging, and timely news delivery."
 
     },
  
@@ -31,11 +30,10 @@ export const projects = [
         id: 4,
         image:'/image/todoimg.png',
         Project_Name: 'Todo List',
-        Source: "LINK",
+        Source: "https://github.com/Asifmzn12/https-github.com-Asifmzn12-Todo",
         // Demo: "https://https-github-com-asifmzn12-todo.vercel.app/"
-        Demo:"LINK",
-        summery:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor porro fuga distinctio incidunt dolore. Porro aperiam molestiae minus tempora rerum."
-
+        Demo:"https://https-github-com-asifmzn12-todo.vercel.app/",
+        summery:"Intuitive Todo List App. Simplified task management, reminders, and categories. Boosted productivity and organization. User-friendly interface for efficient task tracking and completion."
     },
 
 

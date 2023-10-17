@@ -4,11 +4,7 @@
     transition: all 0.5s ease-in-out;
 }
 
-.contact_me:hover {
-    background-color: #15622c !important;
-    color: white;
-    transition: all 0.5s ease-in-out;
-}
+
 .hello {
     -webkit-text-fill-color: transparent;
     background: var(--color-special-color);
