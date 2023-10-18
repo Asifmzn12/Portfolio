@@ -19,12 +19,11 @@ function Introduction() {
                                     options={{
                                         strings: ["Hey! I'm Asif Ali",
                                             "I love coding",
-                                            "I develop mobile apps",
                                             "A Software Developer with a heart for the web. Building digital wonders that users love to explore."
                                         ],
                                         autoStart: true,
                                         loop: true,
-                                        deleteSpeed:"2000"
+                                        deleteSpeed:"1"
 
                                     }}
                                 /></h1>
