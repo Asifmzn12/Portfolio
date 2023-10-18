@@ -4,7 +4,7 @@ export const projects = [
         image:'/image/Portfolioss.png',
         Project_Name: 'Personal Portfolio',
         Source: "https://github.com/Asifmzn12/Portfolio",
-        Demo: "notify",
+        Demo: "https://asif-ali-portfolio.vercel.app/",
         summery:"Curated showcase of expertise. Innovative designs, problem-solving prowess, and creative excellence. Dive into a world of passion, where ideas turn into impactful solutions."
     },
     {

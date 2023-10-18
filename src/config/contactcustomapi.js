@@ -1,21 +1,23 @@
-import {AiOutlinePhone} from 'react-icons/ai'
-import {BsEnvelopeAt} from "react-icons/bs"
-import {BiMap} from "react-icons/bi"
-export const contactapi=[{
-    heading:"Call Me:",
-    text:"+918868873958",
-    icon:AiOutlinePhone,
-    color:"#f06a6a"
+import { AiOutlinePhone } from 'react-icons/ai'
+import { BsEnvelopeAt } from "react-icons/bs"
+import { BiMap } from "react-icons/bi"
+import { FaLinkedinIn, FaInstagram, FaXTwitter } from "react-icons/fa6"
+import { BiLogoFacebook } from 'react-icons/bi'
+export const contactapi = [{
+    heading: "Call Me:",
+    text: "+918868873958",
+    icon: AiOutlinePhone,
+    color: "#f06a6a"
 },
 {
-    heading:"Email Me:",
-    text:"Asifmzn13@gmail.com",
-    icon:BsEnvelopeAt
+    heading: "Email Me:",
+    text: "Asifmzn13@gmail.com",
+    icon: BsEnvelopeAt
 },
 {
-    heading:"Location:",
-    text:"South Delhi",
-    icon:BiMap
+    heading: "Location:",
+    text: "South Delhi",
+    icon: BiMap
 
 },
 
@@ -23,3 +25,23 @@ export const contactapi=[{
 
 
 ]
+const social = [
+    {
+        icon: BiLogoFacebook
+
+    },
+    {
+        icon: FaLinkedinIn
+    }
+    , {
+        icon: FaXTwitter
+
+    }
+    , {
+        icon: FaInstagram
+
+    }
+
+]
+export default social;
+
