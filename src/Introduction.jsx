@@ -27,7 +27,7 @@ function Introduction() {
 
                                     }}
                                 /></h1>
-                            <Button as={Link} to="/contact" className="contact-me d-flex justify-content-center align-items-center">Hire me <AiOutlineSend /></Button>
+                            <Button as={Link} to="/contact" className="contact-me d-flex justify-content-center align-items-center gap-2">Hire me <AiOutlineSend /></Button>
                             <div>
                                 <p>Follow Me</p>
                                 <div className=" text-decoration-none">
