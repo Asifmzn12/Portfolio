@@ -24,6 +24,7 @@ function Introduction() {
                                         ],
                                         autoStart: true,
                                         loop: true,
+                                        deleteSpeed:"2000"
 
                                     }}
                                 /></h1>
