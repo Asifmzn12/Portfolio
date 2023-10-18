@@ -20,7 +20,7 @@ function Introduction() {
                                         strings: ["Hey! I'm Asif Ali",
                                             "I love coding",
                                             "I develop mobile apps",
-                                            // "& i'm a Software Developer passionate and experienced in building Web applications."
+                                            "A Software Developer with a heart for the web. Building digital wonders that users love to explore."
                                         ],
                                         autoStart: true,
                                         loop: true,

@@ -5,7 +5,7 @@ import { AiOutlineLaptop, AiFillGithub } from "react-icons/ai";
 import { projects } from "./config/projectcustomapi";
 
 function Projects() {
-    const notify = () => toast(<h5>Oops! Something went wrong. I'm  on it and will fix the issue shortly. 😔</h5>);
+    const notify = () => toast(<h6>Oops!😔 Something went wrong. I&apos;m  on it and will fix the issue shortly. </h6>);
 
   return (
     <Container className="py-5">
