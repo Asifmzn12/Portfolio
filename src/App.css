@@ -113,3 +113,26 @@ h1 {
    font-size: 14px !important;
     }
 }
+
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    background-color: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; 
+  }
+  .loader-text {
+    margin: 10px 0px 0px 20px; 
+    font-size: 2rem;
+    color: #ffffff; 
+    font-weight: 700;
+    font-family: inherit;
+
+
+  }
