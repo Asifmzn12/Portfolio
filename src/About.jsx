@@ -15,7 +15,7 @@ function About() {
             </p>
             <p> I enjoy creating engaging user interfaces and delivering seamless experiences. Open to collaborative opportunities that allow me to learn and grow in the field. Lets connect and explore how I can leverage my frontend knowledge to create impactful solutions using ReactJS.</p>
 
-            <div className="itscv"><a href="https://drive.google.com/file/d/1bozX8kdL5Dn9n23Az3UHXRPN_nbXraW1/view?usp=drive_link" download="Resume.pdf" target="_blank" rel="noopener noreferrer"><button className="download-cv" >Download Cv <FiDownload/></button></a></div>
+            <div className="itscv"><a href="https://drive.google.com/file/d/1UTkeNtTrwv5p1Ccgbinflwzad7NMbR9a/view?usp=drivesdk" download="Asif-Ali-Resume.pdf" target="_blank" rel="noopener noreferrer"><button className="download-cv" >Download Cv <FiDownload/></button></a></div>
 
           </div>
 
